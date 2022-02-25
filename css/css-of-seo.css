@@ -1,0 +1,1523 @@
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body{
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    /* background-color: crimson; */
+}
+
+/* header start */
+
+
+.navbar-inverse{
+    background-color: #fff;
+    border-color: transparent;
+    position: sticky;
+    top: 0rem;
+    z-index: 999;
+}
+
+.navbar-inverse .navbar-brand{
+    color: black;
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+.navbar-inverse .navbar-brand span{
+    color: #6C55F9 !important;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+    color: #645F88;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: rgba(100, 95, 136, 0.75);
+    font-size: 1.7rem;
+}
+
+.navbar-inverse .navbar-nav>li>a>button{
+    background-color: #6C55F9;
+    color: #fff;
+    border: 0rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    padding: 1rem 1.8rem;
+    margin-top: -8%;
+    transition: all 0.2s ease-in 0s;
+}
+
+.navbar-inverse .navbar-nav>li>a>button:hover{
+    background-color: #645F88;
+}
+
+.navbar{
+    margin-top: 1%;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: transparent;
+    color: #6C55F9;
+}
+
+
+.banner{
+    background-color: #F6F5FC;
+    border-radius: 3rem;
+    padding: 9% 0%;
+    position: relative;
+}
+
+.banner .left-part{
+    /* background-color: crimson; */
+    width: 100%;
+    padding-left: 15%;
+}
+
+.banner .left-part h1{
+    padding-top: 7%;
+    font-weight: 500;
+    line-height: 4.5rem;
+    color: #645F88;
+    padding-bottom: 2%;
+}
+
+.banner .left-part p{
+    font-size: 1.9rem;
+    color: #8e8aad !important
+}
+
+.banner .right-part{
+    /* background-color: cadetblue; */
+    width: 70%;
+    margin: 0 auto;
+}
+
+.banner .right-part img{
+    width: 100%;
+}
+
+.down-button{
+    /* background-color: #55f978; */
+    font-size: 1.5rem;
+    padding: 1% 0.8%;
+    border-radius: 2rem;
+    box-shadow: 0 2px 6px rgb(100 95 136 / 24%);
+    color: #645F88;
+    text-decoration: none;
+    position: absolute;
+    left: 48%;
+    top: 96%;
+    background-color: #fff;
+    transition: all 0.2s ease-in 0s;
+}
+
+.down-button:hover{
+    background-color: #6C55F9;
+    color: #fff;
+}
+
+/* header end */
+
+/* first section start */
+
+.first{
+    width: 100%;
+    padding: 8% 0%;
+    /* background-color: aqua; */
+}
+
+.card{
+    /* background-color: crimson; */
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    box-shadow: 0rem 0.3rem 1.2rem rgb(95 92 120 /12%);
+    padding: 8% 10%;
+}
+
+.card h2{
+    color: #645F88 !important;
+    font-size: 2rem;
+}
+
+.card p{
+    color: #898798;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+}
+
+.card button{
+    color: #fff;
+    background-color: #6C55F9;
+    border: 0rem;
+    font-size: 1.6rem;
+    padding: 1rem 2.5rem;
+    margin-top: 5%;
+    transition: all 0.2s ease-in 0s;
+}
+
+.card button:hover{
+    background-color: #645F88;
+}
+
+/* first section end */
+
+/* secend sectin start */
+
+.secend{
+    width: 100%;
+    /* background-color: coral; */
+    padding: 8% 0%;
+    overflow: hidden;
+}
+
+.secend-left{
+    background-color: #fff;
+    padding-top: 10%;
+}
+
+.secend-left h1{
+    font-size: 3.3rem;
+    font-weight: 500;
+    color: #645F88;
+}
+
+.secend-left p{
+    color: #898798;
+    font-size: 1.6rem;
+}
+
+.secend-left p span{
+    letter-spacing: 0.2rem;
+    font-size: 1.8rem;
+}
+
+.secend-left hr{
+    width: 7%;
+    height: 0.3rem;
+    background-color: #6C55F9;
+    margin-left: 0rem;
+    border: 0rem;
+    border-radius: 2rem;
+}
+
+.secend-right{
+    /* background-color: crimson; */
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.secend-right img{
+    width: 100%;
+}
+
+.secend-left button{
+    color: #fff;
+    background-color: #6C55F9;
+    border: 0rem;
+    font-size: 1.6rem;
+    padding: 1rem 2.5rem;
+    margin-top: 5%;
+    transition: all 0.2s ease-in 0s;
+}
+
+.secend-left button:hover{
+    background-color: #645F88;
+    color: #fff;
+}
+
+.secend-left button ,button:focus{
+    outline: none !important;
+    background-color:  #6C55F9;
+}
+
+/* secend sectin end */
+
+/* thart section tart */
+
+.thard{
+    width: 100%;
+    /* background-color: cornflowerblue; */
+    background-color: #F6F5FC !important;
+    padding: 5% 0% 2.5% 0%;
+}
+
+.thard-child h1, h2, hr{
+    text-align: center;
+}
+
+.thard-child h2{
+    font-size: 1.7rem;
+    letter-spacing: 0.3rem;
+    font-weight: 400;
+    color: #898798;
+    margin: 0%;
+}
+
+.thard-child h1{
+    font-size: 3rem;
+    color: #645F88;
+}
+
+.thard-child hr{
+    width: 3%;
+    height: 0.3rem;
+    background-color: #6C55F9;
+    border: 0rem;
+    border-radius: 2rem;
+}
+
+.bilding{
+    /* background-color: crimson; */
+    text-align: center;
+    padding: 0% 5%;
+    margin-bottom: 15%;
+}
+
+.bilding i{
+    font-size: 2.5rem;
+    color: #6C55F9;
+    background-color: #fff;
+    padding: 7% 8%;
+    border-radius: 50%;
+    margin-bottom: 6%;
+}
+
+.bilding p{
+    font-size: 1.3rem;
+    color: #898798;
+}
+
+.bilding p span{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0%;
+}
+/* thart section end */
+
+
+/* fourt part statrt */
+
+.forth{
+    width: 100%;
+    background-image: radial-gradient(circle, #B262F8 15%, #5439F8);
+    color: #fff;
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.forth h1{
+    font-weight: 400;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 1%;
+    margin: 0rem;
+}
+
+.form-group{
+    background-color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.5% 0.5%;
+    border: 0rem;
+    border-radius: 0.5rem;
+}
+
+.form-group input{
+    font-size: 1.6rem;
+    color: black;
+    width: 80%;
+    border: 0rem;
+
+}
+
+.form-group button{
+    width: 19%;
+    color: #fff;
+    background-color: #35bb78;
+    border: 0rem;
+    font-size: 1.6rem;
+    padding: 1rem 0rem;
+    border-radius: 0.4rem;
+    transition: all 0.2 ease-in 0s;
+}
+
+.form-group button:hover{
+    background-color: #898798;
+}
+
+/* fourt part end */
+
+/* fifth part strat */
+
+.fifth{
+    width: 100%;
+    /* background-color: cornflowerblue; */
+    background-color: #fff !important;
+    padding: 5% 0% 5% 0%;
+}
+
+.fifth-child h1, h2, hr{
+    text-align: center;
+}
+
+.fifth-child h2{
+    font-size: 1.7rem;
+    letter-spacing: 0.3rem;
+    font-weight: 400;
+    color: #898798;
+    margin: 0%;
+}
+
+.fifth-child h1{
+    font-size: 3rem;
+    color: #645F88;
+}
+
+.fifth-child hr{
+    width: 3%;
+    height: 0.3rem;
+    background-color: #6C55F9;
+    border: 0rem;
+    border-radius: 2rem;
+    margin-bottom: 2%;
+}
+
+.fifth-card{
+    width: 85%;
+    /* background-color: crimson; */
+    margin: 0 auto;
+    padding: 10% 3%;
+    border: 0rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 16px rgb(100 95 136 / 16%);
+    transition: all 0.5s ease-out 0s;
+}
+
+.fifth-card:hover{
+    transform: scale(1.1);
+}
+
+.fart-box{
+    /* background-color: chartreuse; */
+    text-align: center;
+    border-bottom: 0.1rem solid #B8B4d5;
+    padding-bottom: 5%;
+}
+
+.fart-box p{
+    font-size: 1.5rem;
+    color: #898798;
+    margin: 0rem;
+}
+
+.fart-box h1{
+    font-size: 3.8rem;
+}
+
+.fart-box h2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #5439F8;
+}
+
+.secend-box{
+    /* background-color: aquamarine; */
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 5% 0%;
+    border-bottom: 0.1rem solid #B8B4d5;
+}
+
+.secend-box p span{
+    color: #a4a1c8;
+}
+
+.fifth-card button{
+    color: #fff;
+    background-color: #B8B4d5;
+    border: 0rem;
+    font-size: 1.6rem;
+    padding: 1rem 0rem;
+    border-radius: 0.4rem;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.fifth-card button:hover{
+    background-color: #6C55F9;
+    transition: all 0.2s ease-in 0s;
+}
+
+.anthet-class{
+    background-color: #6C55F9;
+}
+
+.anthet-class .fart-box-1{
+    color: #fff;
+    border-color: #fff;
+}
+
+.anthet-class .mibal-box{
+    border-color: #fff;
+}
+
+.anthet-class .fart-box-1 h1{
+    color: #fff;
+}
+
+.anthet-class .fart-box-1 h2{
+    color: #fff;
+}
+
+.anthet-class .fart-box-1 p{
+    color: #D7D5E9;
+} 
+
+
+.anthet-class .mibal-box p{
+    color: #fff;
+}
+
+.anthet-class .mibal-box p span{
+    color: #D7D5E9;
+}
+
+.anthet-class button{
+    background-color: #fff;
+    color: #6C55F9;
+}
+
+.anthet-class button:hover{
+    background-color: #B8B4d5;
+}
+
+
+/* fifth part end */
+
+
+/* sixth part start */
+
+.sixth{
+    width: 100%;
+    background-color: #5439F8;
+    padding: 5% 0%;
+    overflow: hidden;
+}
+
+.visibal-1{
+    width: 100%;
+    /* background-color: crimson; */
+}
+
+.visibal-2{
+    width: 100%;
+    /* background-color: crimson; */
+    padding-top: 8%;
+    text-align: center;
+}
+
+.visibal-1 h1{
+    margin: 0rem 0rem 0.2rem 0rem;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.visibal-1 hr{
+    width: 5%;
+    height: 0.3rem;
+    background-color: #fff;
+    margin-left: 0rem;
+    border: 0rem;
+    border-radius: 2rem;
+}
+
+.visibal-1 p{
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.seo-friend{
+    color: #fff;
+}
+
+.seo-friend ul li h5{
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-top: 1.5rem;
+}
+
+.seo-friend ul li p{
+    color: #fff;
+}
+
+/* sixth part end */
+
+/* seventh  section start */
+
+
+.seventh{
+    width: 100%;
+    /* background-color: cornflowerblue; */
+    background-color: #fff !important;
+    padding: 5% 0% 5% 0%;
+}
+
+.seventh-child h1, h2, hr{
+    text-align: center;
+}
+
+.seventh-child h2{
+    font-size: 1.7rem;
+    letter-spacing: 0.3rem;
+    font-weight: 400;
+    color: #898798;
+    margin: 0%;
+}
+
+.seventh-child h1{
+    font-size: 3rem;
+    color: #645F88;
+}
+
+.seventh-child hr{
+    width: 3%;
+    height: 0.3rem;
+    background-color: #6C55F9;
+    border: 0rem;
+    border-radius: 2rem;
+}
+
+.three-card{
+    width: 80%;
+    /* background-color: crimson; */
+    margin: 0 auto;
+    box-shadow: 0 2px 6px rgb(100 95 136 / 16%);
+    border-radius: 0.5rem;
+    margin-top: 10%;
+}
+
+.blog{
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.blog img{
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+}
+
+.three-card .blog-1 a{
+    color: #645F88;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.three-card .blog-1 a:hover{
+    color: #5439F8;
+}
+
+.three-card .blog-1{
+    padding: 5%;
+    /* background-color: #35bb78; */
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.three-card .blog-1 p{
+    font-size: 1.3rem;
+    color: #898798;
+    margin-top: 3%;
+}
+
+.three-card .blog-1 span{
+    color: #5439F8;
+}
+
+.seventh button{
+    color: #fff;
+    background-color: #5439F8;
+    border: 0rem;
+    font-size: 1.6rem;
+    padding: 1rem 2.5rem;
+    border-radius: 0.4rem;
+    margin-left: 44%;
+    margin-top: 5%;
+    transition: all 0.2s ease-in 0s;
+}
+
+.seventh button:hover{
+    background-color: #645F88;
+}
+
+/* seventh  section end */
+
+
+/* footer start */
+
+
+.last{
+    width: 100%;
+    background-color: #2D2B3A;
+    padding: 5% 0% 3% 0%;
+}
+
+.ft-1, .ft-2{
+    /* background-color: crimson; */
+}
+.ft-1, .ft-2,.ft-3, .ft-4 h3{
+    color: #fff;
+}
+
+.ft-2 a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #898798
+}
+
+.ft-2 a:hover{
+    color: white;
+}
+
+.last .ft-1 h1{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 2%;
+}
+
+.last .ft-1 p{
+    font-size: 1.7rem;
+    color: #898798;
+    padding-bottom: 2%;
+}
+
+.last .ft-1 i{
+    color: #898798;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all 0.2s ease-in 0s;
+}
+
+.last .ft-1 i:hover{
+    background-color: #5439F8;
+    transform: rotate(360deg);
+    color: #fff;
+}
+
+.fa-facebook-f{
+    padding: 5% 6%;
+}
+
+.fa-twitter{
+    padding: 5% 5%;
+}
+
+.fa-google-plus-g{
+    padding: 5% 4.5%;
+}
+
+.fa-instagram{
+    padding: 5% 5.5%;
+}
+.fa-youtube{
+    padding: 5% 5%;
+}
+
+.ft-2 input{
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: 0rem;
+    border-radius: 0.3rem;
+    font-size: 1.7rem;
+    margin-top: 8%;
+}
+
+.ft-2 input,input:focus{
+    outline: none !important;
+}
+
+.ft-2 button{
+    color: #fff;
+    background-color: #35bb78;
+    border: 0rem;
+    font-size: 1.6rem;
+    padding: 1rem 2.5rem;
+    border-radius: 0.4rem;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.ft-2 button:hover{
+    background-color: #645F88;
+    transition: all 0.2s ease-in 0s;
+}
+
+#last-p{
+    font-size: 1.6rem;
+    color: #898798;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#last-p span{
+    color: #35bb78;
+}
+
+/* footer end */
+
+
+
+
+/* meedia query srart */
+
+@media only screen and (max-width:992px){
+    .navbar-inverse .navbar-nav>li>a>button{
+        font-size: 1.4rem;
+    }
+
+    .banner .left-part h1{
+        line-height: 3.5rem;
+        font-size: 2.5rem;
+    }
+
+    .banner .right-part{
+        width: 75%;
+    }
+
+    .banner .left-part p{
+        font-size: 1.7rem;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .card img{
+        width: 50%;
+    }
+
+    .card h2{
+        font-size: 1.7rem;
+    }
+
+    .card p{
+        font-size: 1.4rem;
+    }
+
+    .card button{
+        font-size: 1.4rem;
+    }
+
+    .secend{
+        padding: 2% 0% 8% 0%;
+    }
+
+    .secend-left h1{
+        font-size: 2.5rem;
+        margin-top: 3%;
+        line-height: 3.5rem;
+    }
+
+    .secend-left{
+        padding-top: 0%;
+    }
+
+    .secend-left hr{
+        margin-top: 0rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .secend-left p{
+        font-size: 1.5rem;
+    }
+
+    .secend-left button{
+        font-size: 1.4rem;
+    }
+
+    .secend-right{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .thard-child h1{
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .bilding p{
+        font-size: 1.5rem;
+    }
+
+    .forth h1{
+        font-size: 2.5rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .form-group button{
+        font-size: 1.4rem;
+        width: 28%;
+        padding: 0.8r 0rem;
+    }
+
+    .form-group{
+        width: 42%;
+    }
+
+    .form-group input{
+        width: 70%;
+    }
+
+    .fifth-child h1{
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .fart-box h1{
+        font-size: 3rem;
+        margin-top: 1rems;
+    }
+
+    .fart-box h2{
+        font-size: 1.7rem;
+        margin-top: 1.5rem;
+    }
+
+    .secend-box{
+        font-size: 1.4rem;
+    }
+
+    .secend-box p{
+        margin-bottom: 0.7rem;
+    }
+
+    .fifth-card button{
+        font-size: 1.4rem;
+    }
+
+    .fifth-card{
+        padding: 9% 3% 6% 3%;
+        width: 100%;
+    }
+
+    .visibal-1 h1{
+        font-size: 2.5rem;
+    }
+
+    .visibal-1 hr{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .visibal-1 p{
+        font-size: 1.5rem;
+    }
+
+    .seo-friend ul li h5{
+        font-size: 1.6rem;
+    }
+
+    .seo-friend ul li p{
+        font-size: 1.5rem;
+    }
+
+    .visibal-2{
+        padding-top: 17%;
+    }
+
+    .seventh-child h1{
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .three-card{
+        width: 100%;
+    }
+
+    .three-card .blog-1 a{
+        font-size: 1.7rem;
+    }
+
+    .seventh button{
+        font-size: 1.4rem;
+        margin-left: 41%;
+    }
+
+    .last .ft-1 h1{
+        font-size: 2.5rem;
+    }
+
+    .ft-2 h3{
+        font-size: 2rem;
+    }
+
+    .last .ft-1 p{
+        font-size: 1.4rem;
+    }
+
+    .ft-2 a{
+        font-size: 1.4rem;
+    }
+
+    .last .ft-1 i{
+        font-size: 1.2rem;
+    }
+
+    .ft-2 input{
+        font-size: 1.6rem;
+    }
+
+    #last-p{
+        font-size: 1.4rem;
+        margin-top: 4%;
+    }
+
+
+    @media only screen and (max-width:767px){
+        .navbar-inverse .navbar-toggle{
+            border-color: #5439F8;
+        }
+
+        .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+            background-color: #fff;
+        }
+
+        .navbar-inverse .navbar-toggle .icon-bar{
+            background-color: #5439F8;
+        }
+
+        .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+            border-color: #5439F8;
+        }
+
+        .banner .left-part{
+            padding-left: 0%;
+            text-align: center;
+        }
+
+        .banner .left-part h1{
+            padding: 0%;
+            margin-top: 0%;
+        }
+
+        .banner{
+            width: 75%;
+            margin: 0 auto;
+
+            padding: 5% 2% 9% 2%;
+        }
+
+        .banner .right-part{
+            width: 55%;
+            padding-top: 5%;
+        }
+
+        .card{
+            width: 75%;
+            margin-bottom: 7%;
+        }
+
+        .card img{
+            width: 35%;
+        }
+
+        .card{
+            padding: 5% 10%;
+        }
+
+        .card button{
+            margin-top: 2%;
+        }
+
+        .secend{
+            margin: 0 auto;
+            width: 75%;
+        }
+
+        .secend-left{
+            text-align: center;
+        }
+
+        .secend-left button{
+            margin-top: 2%;
+        }
+
+        .secend-right {
+            width: 75%;
+            margin: 0 auto;
+            padding-top: 10%;
+        }
+
+        .first{
+            padding-bottom: 0%;
+        }
+
+        .thard{
+            width: 75%;
+            margin: 0 auto;
+            margin-bottom: 10%;
+        }
+
+        .fifth-card{
+            width: 75%;
+            margin: 0 auto;
+        }
+
+        .fifth-card{
+            padding: 4% 11% 4% 11%;
+            margin-bottom: 8%;
+        }
+
+        .fart-box h1{
+            margin-top: 1rem;
+        }
+
+        .fart-box h2{
+            margin-bottom: 0rem;
+        }
+
+        .fifth-child hr{
+            margin-bottom: 5%;
+        }
+
+        .fifth{
+            padding: 5% 0% 0% 0%;
+        }
+
+        .sixth{
+            padding:  5% 2%;
+            width: 75%;
+            margin: 0 auto;
+            border: 0rem;
+            border-radius: 0.5rem;
+        }
+
+        .seventh{
+            width: 75%;
+            margin: 0 auto;
+        }
+
+        .seventh-child hr{
+            margin-bottom: 0%;
+        }
+
+        .three-card .blog-1{
+            padding: 2% 5%;
+        }
+
+        .three-card .blog-1 p{
+            margin-top: 1%;
+        }
+
+        .secend-left hr{
+            margin-left: 45%;
+        }
+
+        .last{
+            padding: 5% 5% 3% 5%;
+            text-align: center;
+        }
+
+        .ft-2 input{
+            width: 75%;
+            text-align: center;
+        }
+
+        .ft-2 button{
+            width: 75%;
+        }
+
+        .fifth-card button{
+            font-size: 1.7rem;
+        }
+
+        .navbar-inverse .navbar-nav>li>a>button{
+            margin-top: 0%;
+            margin-left: 1%;
+        }
+
+        .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+            text-align: center;
+        }
+
+        @media only screen and (max-width:551px){
+            .banner{
+                width: 100%;
+            }
+
+            .banner .left-part h1 {
+                line-height: 2.5rem;
+                font-size: 2.2rem;
+            }
+
+            .card{
+                width: 100%;
+            }
+
+            .card img{
+                width: 25%;
+            }
+
+            .card button{
+                padding: 0.8rem 1.4rem;
+            }
+
+            .secend-left h1{
+                font-size: 2.2rem;
+            }
+
+            .secend-left p{
+                font-size: 1.4rem;
+            }
+
+            .secend-left button{
+                padding: 0.8rem 1.4rem;
+            }
+
+            .secend-left p span{
+                font-size: 1.5rem;
+            }
+
+            .thard-child h2{
+                font-size: 1.5rem;
+            }
+
+            .thard-child h1{
+                font-size: 2.2rem;
+            }
+
+            .bilding p span{
+                font-size: 1.7rem;
+            }
+
+            .bilding p {
+                font-size: 1.4rem;
+            }
+
+            .forth h1{
+                font-size: 2.2rem;
+                margin-bottom: 2%;
+            }
+
+            .form-group button{
+                display: block;
+                width: 100%;
+            }
+
+            .form-group input{
+                width: 100%;
+                border: 0.01rem solid rgb(128, 127, 127);
+                margin-bottom: 4%;
+                text-align: center;
+                padding: 0.5rem 0rem;
+                border-radius: 0.5rem;
+            }
+
+            .form-group{
+                width: 45%;
+                padding: 2.5% 2.5%;
+                text-align: center;
+            }
+
+
+            .fifth-child h2{
+                font-size: 1.5rem;
+            }
+
+            .fifth-child h1{
+                font-size: 2.2rem;
+            }
+
+            .visibal-1 h1{
+                font-size: 2.2rem;
+            }
+
+            .visibal-2 img{
+                width: 100%;
+            }
+
+            .seventh-child h2{
+                font-size: 1.5rem;
+            }
+
+            .seventh-child h1{
+                font-size: 2.2rem;
+            }
+
+            .three-card .blog-1 a{
+                font-size: 1.5rem;
+            }
+
+            .seventh button{
+                padding: 0.8rem 1.4rem;
+                margin-left: 39%;
+            }
+
+            .last .ft-1 h1{
+                font-size: 2.2rem;
+            }
+
+            .last .ft-1 p{
+                font-size: 1.3rem;
+            }
+
+            .ft-2 h3 {
+                font-size: 1.7rem;
+            }
+
+            .last .ft-1 p {
+                font-size: 1.3rem;
+            }
+
+            .ft-2 a{
+                font-size: 1.3rem;
+            }
+
+            .ft-2 input{
+                font-size: 1.4rem;
+                text-align: center;
+                padding: 0.7rem 2.5rem;
+            }
+
+            .ft-2 button{
+                font-size: 1.4rem;
+                padding: 0.7rem 2.5rem;
+            }
+
+            #last-p{
+                font-size: 1rem;
+                margin-top: 6%;
+            }
+
+
+            .last .ft-1 i{
+                font-size: 1rem;
+            }
+
+            .navbar-inverse .navbar-nav>li>a>button{
+                padding: 0.8rem 1.4rem;
+            }
+
+        }
+}
+
+
+
+
+@media only screen and (max-width:415px){
+    .banner .left-part h1 {
+        line-height: 1.5rem;
+        font-size: 1.7rem;
+    }
+
+    .banner .left-part p{
+        font-size: 1.5rem;
+    }
+
+    .card h2{
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        font-size: 1.3rem;
+    }
+
+    .card p{
+        line-height: 2rem;
+    }
+
+    .secend-left p span{
+        font-size: 1.3rem;
+    }
+
+    .secend-left h1{
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+
+    .secend-left p{
+        font-size: 1.3rem;
+    }
+
+    .thard-child h2 {
+        font-size: 1.3rem;
+    }
+
+    .thard-child h1 {
+        font-size: 1.7rem;
+    }
+
+    .bilding p span {
+        font-size: 1.5rem;
+    }
+
+    .bilding p {
+        font-size: 1.3rem;
+    }
+
+    .bilding i {
+        font-size: 2rem;
+    }
+
+    .forth h1{
+        font-size: 1.7rem;
+    }
+
+    .form-group{
+        width: 85%;
+    }
+
+    .form-group input{
+        font-size: 1.4rem;
+        margin-bottom: 2%;
+    }
+
+    .form-group button{
+        padding: 0.5rem 0rem;
+    }
+
+    .fifth-child h2 {
+        font-size: 1.3rem;
+    }
+
+    .fifth-child h1 {
+        font-size: 1.7rem;
+    }
+
+    .fart-box p{
+        font-size: 1.3rem;
+    }
+
+    .fart-box h1{
+        font-size: 2.5rem;
+    }
+
+    .fart-box h2{
+        font-size: 1.5rem;
+    }
+
+    .secend-box{
+        font-size: 1.3rem;
+    }
+
+    .fifth-card button {
+        font-size: 1.5rem;
+    }
+
+    .visibal-1 h1{
+        font-size: 1.7rem;
+    }
+
+    .visibal-1 p {
+        font-size: 1.3rem;
+    }
+
+    .seo-friend ul li h5 {
+        font-size: 1.4rem;
+    }
+
+    .seo-friend ul li p {
+        font-size: 1.3rem;
+    }
+
+    .visibal-2 {
+        padding-top: 10%;
+    }
+
+    .seventh-child h2 {
+        font-size: 1.3rem;
+    }
+
+    .seventh-child h1 {
+        font-size: 1.7rem;
+    }
+
+    .three-card .blog-1 a {
+        font-size: 1.4rem;
+    }
+
+    .three-card .blog-1 p{
+        font-size: 1.2rem;
+    }
+
+    .seventh button{
+        margin-left: 32%;
+    }
+
+    .last .ft-1 h1 {
+        font-size: 1.7rem;
+    }
+
+    .ft-2 h3 {
+        font-size: 1.5rem;
+    }
+
+    .last .ft-1 p {
+        font-size: 1.1rem;
+    }
+
+    .ft-2 a {
+        font-size: 1.1rem;
+    }
+
+    .last .ft-1 i{
+        margin-top: 25%;
+    }
+
+    .ft-2 input {
+        font-size: 1.1rem;
+    }
+
+    .ft-2 button{
+        font-size: 1.1rem;
+    }
+
+    .last {
+        padding: 5% 5% 10% 5%;
+    }
+
+    .navbar-inverse .navbar-nav>li>a{
+        font-size: 1.5rem;
+    }
+
+    .secend-left hr{
+        width: 10%;
+    }
+
+    .thard-child hr{
+        width: 10%;
+    }
+
+    .fifth-child hr{
+        width: 10%;
+    }
+
+    .visibal-1 hr{
+        width: 10%;
+    }
+
+    .seventh-child hr{
+        width: 10%;
+    }
+
+
+}
+
+/* meedia query end */
